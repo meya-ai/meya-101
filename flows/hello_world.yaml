@@ -1,0 +1,12 @@
+name: hello_world
+states:
+    first:
+        component: meya.text
+        properties:
+            text: Hello, World! 💯
+    second:
+        component: meya.text
+        properties:
+            text: "The second thing."
+    output_joke:
+        component: joke
